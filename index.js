@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", async (req, res) => {
   try {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:8080");
+    res.setHeader("Access-Control-Allow-Origin", "https://jsfiddle.net");
 
     res.setHeader("content-type", "application/json");
     res.writeHead(200);
